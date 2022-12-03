@@ -1,1 +1,3 @@
-<input (input)="term = getValue($event)" type="string"/>
+<form (submit)="onFormSubmit($event)">
+    <input (input)="term = getValue($event)"/>
+</form>
