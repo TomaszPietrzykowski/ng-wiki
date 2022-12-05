@@ -6,5 +6,5 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./page-list.component.scss'],
 })
 export class PageListComponent {
-  @Input() pages = [];
+  @Input() pages: any = [];
 }
